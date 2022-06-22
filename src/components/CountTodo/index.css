@@ -1,0 +1,90 @@
+.todo-counttodo {
+  height: 40px;
+  padding-left: 6px;
+  margin-top: 5px;
+  line-height: 40px;
+}
+
+.todo-counttodo label {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.todo-counttodo label input {
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.todo-counttodo button {
+  float: right;
+  margin-top: 5px;
+}
+
+/* input[type=checkbox] {
+  display: none;
+} */
+
+/*
+input[type=checkbox] {
+  display: none
+} */
+
+/* チェックボックスの代わりを成すラベル */
+.todo-counttodo input[type='checkbox'] {
+  position: relative;
+  display: none;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding-right: 10px;
+  padding-left: 25px;
+  cursor: pointer;
+  background-color: #bcaaa4;			/* チェックした時の色 */
+  border-color: #bcaaa4; /* 枠の色変更 お好きな色を */
+}
+
+/* ラベルの左に表示させる正方形のボックス□ */
+.todo-counttodo input[type='checkbox']::before {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  width: 5px;
+  height: 5px;
+  margin: -2px 25px 25px -4px;
+  content: '';
+  background-color: #bcaaa4(2, 0, 90);			/* チェックした時の色 */
+  border: 1px solid;
+  border-color: #bcaaa4; /* 枠の色変更 お好きな色を */
+}
+
+/* ラベルの左に表示させる正方形のボックス□ */
+.todo-counttodo input[type='checkbox']::after {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: -5px 25px 25px -5px;
+  content: '';
+  background-color: #464646;			/* チェックした時の色 */
+  border: 2px solid;
+  border-color: #bcaaa4; /* 枠の色変更 お好きな色を */
+}
+
+/* チェックが入った時のレ点 */
+.todo-counttodo input[type='checkbox']:checked::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -5px 25px 25px -5px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+  text-align: center;
+  content: '\2714';
+  background-color: #bcaaa4;
+  box-shadow: 0 0 4px #bcaaa4;
+}

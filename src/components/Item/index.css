@@ -1,0 +1,39 @@
+li {
+  height: 36px;
+  padding: 0 5px;
+  line-height: 36px;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+}
+
+li label {
+  float: left;
+  cursor: pointer;
+}
+
+li label li input {
+  position: relative;
+  top: -1px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+li button {
+  display: none;
+  float: right;
+  margin-top: 3px;
+}
+
+li::before {
+  content: initial;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.checkbox-input {
+  color: blue;
+  background-color: rgb(182 40 40);
+  size: 15ch;
+}
