@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# TodoListアプリ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 概要：
+ToDoを一覧に登録/表示するアプリです。やるべき作業を書き出したリストのこと。 作業が整理・可視化されることで何をやるべきかが明確にすることが可能に。 その結果、業務の抜け漏れを防止したり、時間の有効活用など、作業効率や生産性の向上を図ることができます。
 
-## Available Scripts
+## 使用した言語、ツール：
+・React
+・Typescript
+・Material UI
+・localstorage
+・Jest
 
-In the project directory, you can run:
+## 機能：
+No	イベント名									概要																
+1	初期表示									Todolist画面を表示する																
+2	「ADD」ボタン押下									「TODO入力欄」の入力値をもとにTODOを登録する																
+3	「TODOのチェックボックス」の切替									対応するTODOのチェック状態を切り替える																
+4	「全TODOのチェックボックス」の切替									全てのTODOのチェック状態を切り替える																
+5	TODOの「編集」ボタン押下									編集ダイアログを表示し、対応するTODOの「TODO名」を編集する																
+6	TODOの「削除」ボタン押下									削除確認ダイアログを表示後、対応するTODOを削除する																
+7	「チェックしたTODOを削除」ボタン押下									削除確認ダイアログを表示後、チェック済みのTODOを全て削除する																
 
-### `yarn start`
+## 事前インストールソフト：
+VSCode
+Node.js 
+yarn 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 手順：
+1.zipファイルをダウンロード
+2.ダウンロードしたファイルを展開
+3.VSCodeを立ち上がる
+4.VSCodeから展開したフォルダを開く
+5.「todolist_typescript-master」フォルダの配下からターミナルを立ち上がる
+6.yarnを実行する、そしてインストールが始まる
+7.インストールが終わった後、yarn startを実行
