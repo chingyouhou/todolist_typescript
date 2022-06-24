@@ -30,8 +30,10 @@ ToDoを一覧に登録/表示するアプリです。やるべき作業を書き
 
 ## 画面
 初期表示：
+
 ![image](https://user-images.githubusercontent.com/107968178/175491445-2fb86c22-f464-4c31-b11d-9845e2609e57.png)
 
 タスク登録後：
+
 ![image](https://user-images.githubusercontent.com/107968178/175491506-e7f97fb9-7e87-4a66-92ed-6c53262a838a.png)
 
