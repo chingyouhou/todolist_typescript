@@ -4,11 +4,11 @@
 ToDoを一覧に登録/表示するアプリです。やるべき作業を書き出したリストのこと。 作業が整理・可視化されることで何をやるべきかが明確にすることが可能に。 その結果、業務の抜け漏れを防止したり、時間の有効活用など、作業効率や生産性の向上を図ることができます。
 
 ## 使用した言語、ツール：
-・React
-・Typescript
-・Material UI
-・localstorage
-・Jest
+- React
+- Typescript
+- Material UI
+- localstorage
+- Jest
 
 ## 機能：
 No	イベント名									概要																
@@ -19,6 +19,8 @@ No	イベント名									概要
 5	TODOの「編集」ボタン押下									編集ダイアログを表示し、対応するTODOの「TODO名」を編集する																
 6	TODOの「削除」ボタン押下									削除確認ダイアログを表示後、対応するTODOを削除する																
 7	「チェックしたTODOを削除」ボタン押下									削除確認ダイアログを表示後、チェック済みのTODOを全て削除する																
+![image](https://user-images.githubusercontent.com/107968178/175491085-3170f1a1-7340-4fbb-b88c-746beab5a552.png)
+
 
 ## 事前インストールソフト：
 VSCode
